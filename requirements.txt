@@ -1,0 +1,17 @@
+# TTE: Intentionally vulnerable Python dependencies
+# Dependabot will flag these for Tuskira detection validation
+
+# CVE-2022-42969 - ReDoS
+py==1.11.0
+
+# CVE-2022-40897 - Remote code execution
+setuptools==57.0.0
+
+# CVE-2023-32681 - Header injection
+requests==2.20.0
+
+# CVE-2022-26488 - Privilege escalation
+Pillow==9.0.0
+
+boto3==1.26.0
+flask==2.0.0
